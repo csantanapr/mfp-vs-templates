@@ -2,6 +2,8 @@ Getting Started
 
     $ mfp cordova create myapp -p android -t mfp-vs-templates
 
+To use in Visual Studio 2015 open CordovaApp.sln or CordovaApp.jsproj
+
 only use ios platform on a Mac/OSX
 
 Known Issues:
