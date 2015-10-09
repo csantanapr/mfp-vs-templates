@@ -4,12 +4,8 @@ var path = require('path');
 var os = require('os');
 
 if (/android/i.test(process.env.CORDOVA_PLATFORMS)) {
-  console.log('hook is for anroid');
   var android_build_fix = path.resolve(__dirname, 'android_fix/build.js');
   var android_build = path.resolve(__dirname, '../../', 'platforms/android/cordova/lib/build.js');
-
-  console.log('android_build_fix', android_build_fix);
-  console.log('android_build', android_build);
 
   copyFileSync(android_build_fix, android_build);
 
