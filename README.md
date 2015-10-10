@@ -11,7 +11,7 @@ Only add plugins using the `$ mfp cordova plugin add <pluginID>`
 This will add the plugins compatible with mfp version of ios and andorid platforms
 
 
-Known Issues:
+Visual Studio limitations:
 - Ripple doesn't work with MFP APIs, wlCommonInit doesn't runs, WL.* not available
 Use `$ mfp preview` to run app in Browser with MBS or Simple Preview
 - Running iOS from VS2015 to remote Mac/OSX not supportted it gives build errors, incompatible cordova-ios
