@@ -1,3 +1,8 @@
+##  Experimental mfp templates for cordova apps with Visual Studio 2015
+
+
+### *Warning: Use at your own risk, this is an experiment*
+
 Getting Started
 
     $ mfp cordova create myapp -p android -t mfp-vs-templates
@@ -9,6 +14,10 @@ use android platfowm on Mac/OSX, Windows, or Linux
 
 Only add plugins using the `$ mfp cordova plugin add <pluginID>`
 This will add the plugins compatible with mfp version of ios and andorid platforms
+
+## Video Demo
+
+[![Cordova Browser-Sync Plugin demo video](http://img.youtube.com/vi/JxY6un1hOg4/0.jpg)](http://www.youtube.com/watch?v=JxY6un1hOg4)
 
 
 Visual Studio limitations:
